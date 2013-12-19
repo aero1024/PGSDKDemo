@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/preview_surface"
+        android:layout_width="1px"
+        android:layout_height="1px" />
+
+    <us.pinguo.androidsdk.PGGLSurfaceView
+        android:id="@+id/gl_preview_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/preview_frame_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ff0000" />
+    
+    <Button 
+        android:id="@+id/change_effect_button"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:text="切换"/>
+    
+    <Button
+        android:id="@+id/scene_effect_button"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_gravity="right|top"
+        android:text="情景"/>
+    
+    <Button
+        android:id="@+id/tabe_picture_button"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_gravity="left|bottom"
+        android:text="拍照"/>
+
+    <Button
+        android:id="@+id/go_to_make_other_activity"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:text="跳转"
+        android:layout_gravity="right|bottom"></Button>
+</FrameLayout>

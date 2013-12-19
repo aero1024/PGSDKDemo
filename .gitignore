@@ -1,0 +1,12 @@
+
+*.svn-base
+
+.svn/dir-prop-base
+
+.svn/entries
+
+assets/.svn/entries
+
+bin/AndroidManifest.xml
+
+bin/PGSDKDemo.apk
